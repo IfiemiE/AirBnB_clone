@@ -52,8 +52,7 @@
     margin-left:25px;
 }
 
-#loc-pop,
-#amen-pop {
+.popover {
     background-color: #FAFAFA;
     width: 100%;
     border: 1px solid #DDDDDD;
@@ -61,8 +60,11 @@
     display: none;
 }
 
-.locations:hover #loc-pop,
-.amenities:hover #amen-pop {
+.locations:hover .popover {
+    display: block;
+}
+
+.amenities:hover .popover {
     display: block;
 }
 
